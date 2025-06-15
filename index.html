@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mis Escritos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Mis Escritos</h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#escritos">Escritos</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <button id="menu-toggle">☰</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <h2>Bienvenido</h2>
+      <p>Este es un espacio donde comparto mis escritos, ideas y pensamientos.</p>
+    </section>
+
+    <section id="escritos">
+      <h2>Escritos</h2>
+      <article>
+        <h3>Título del escrito 1</h3>
+        <p>Un pequeño fragmento de muestra. <a href="#">Leer más...</a></p>
+      </article>
+      <article>
+        <h3>Título del escrito 2</h3>
+        <p>Otro fragmento. <a href="#">Leer más...</a></p>
+      </article>
+    </section>
+
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Una breve biografía. Puedes escribir aquí quién eres, por qué escribes, etc.</p>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form>
+        <input type="text" placeholder="Tu nombre" required />
+        <input type="email" placeholder="Tu correo" required />
+        <textarea placeholder="Tu mensaje"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mis Escritos. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
